@@ -15,6 +15,7 @@ namespace Panel_FlowPanel
 
         List<Drink> list_drink = new List<Drink>();
         DataTable invoice = new DataTable();
+        private int SelectedRowIndex;
         public FlowPanelDemo()
         {
             InitializeComponent();
@@ -58,9 +59,37 @@ namespace Panel_FlowPanel
         private void DrinkButton_Click(object sender, EventArgs e)
         {
             MyDrinkButton drinkbtn = ((MyDrinkButton)sender);
+            int drink_id = drinkbtn.MyDrink.Id;
+
+            //check item in invoice, if exist increase amount add update total
+            for (int index =0;index<invoice.Rows.Count;index++)
+            {
+                if (((int)invoice.Rows[index]["Id"]) == drink_id)
+                {
+                    invoice.Rows[index]["Amount"] = ((int)invoice.Rows[index]["Amount"]) + 1;
+                    invoice.Rows[index]["Total"] = ((int)invoice.Rows[index]["Price"]) * ((int)invoice.Rows[index]["Amount"]);
+                    return;
+                }
+            }
+            
+
+
             invoice.Rows.Add(drinkbtn.MyDrink.Id, drinkbtn.MyDrink.Name, drinkbtn.MyDrink.Price, 1, drinkbtn.MyDrink.Price);
             dataGridView_invoice.DataSource = invoice;
        
+        }
+
+        private void dataGridView_invoice_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            int selectedRowIndex = e.RowIndex;
+            MessageBox.Show(selectedRowIndex+"");
+            //int selectedId = Convert.ToInt32(dataGridView_invoice.Rows[selectedRowIndex].Cells[0]);
+
+            invoice.Rows[selectedRowIndex]["Total"] = ((int)invoice.Rows[selectedRowIndex]["Price"]) * ((int)invoice.Rows[selectedRowIndex]["Amount"]);
+
+            dataGridView_invoice.DataSource = invoice;
+
+
         }
     }
 

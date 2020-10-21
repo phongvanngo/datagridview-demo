@@ -75,6 +75,7 @@
             this.dataGridView_invoice.RowTemplate.Height = 24;
             this.dataGridView_invoice.Size = new System.Drawing.Size(404, 150);
             this.dataGridView_invoice.TabIndex = 2;
+            this.dataGridView_invoice.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_invoice_CellEndEdit);
             // 
             // FlowPanelDemo
             // 
