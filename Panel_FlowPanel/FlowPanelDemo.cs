@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Panel_FlowPanel
 {
-    public partial class Form1 : Form
+    public partial class FlowPanelDemo : Form
     {
 
         List<Drink> list_drink = new List<Drink>();
-        public Form1()
+        DataTable invoice = new DataTable();
+        public FlowPanelDemo()
         {
             InitializeComponent();
 
@@ -23,6 +24,14 @@ namespace Panel_FlowPanel
             list_drink.Add(new Drink(3, "tra tac", 19000));
             list_drink.Add(new Drink(4, "tra chanh", 32000));
             list_drink.Add(new Drink(5, "tra buoi", 55000));
+
+            invoice.Columns.Add("ID",typeof(int));
+            invoice.Columns.Add("Name",typeof(string));
+            invoice.Columns.Add("Price",typeof(int));
+            invoice.Columns.Add("Amount",typeof(int));
+            invoice.Columns.Add("Total",typeof(int));
+
+            dataGridView_invoice.DataSource = invoice;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,9 +49,18 @@ namespace Panel_FlowPanel
             foreach(var drink in list_drink)
             {
                 MyDrinkButton drinkButton = new MyDrinkButton(drink);
+                drinkButton.Click += DrinkButton_Click;
                 drinkButton.Text = drinkButton.MyDrink.Name;
                 myFlowLayoutPanel.Controls.Add(drinkButton);
             }
+        }
+
+        private void DrinkButton_Click(object sender, EventArgs e)
+        {
+            MyDrinkButton drinkbtn = ((MyDrinkButton)sender);
+            invoice.Rows.Add(drinkbtn.MyDrink.Id, drinkbtn.MyDrink.Name, drinkbtn.MyDrink.Price, 1, drinkbtn.MyDrink.Price);
+            dataGridView_invoice.DataSource = invoice;
+       
         }
     }
 
