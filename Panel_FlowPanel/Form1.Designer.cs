@@ -30,6 +30,7 @@
         {
             this.myFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
+            this.button_render_mybtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // myFlowLayoutPanel
@@ -49,11 +50,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button_render_mybtn
+            // 
+            this.button_render_mybtn.Location = new System.Drawing.Point(525, 386);
+            this.button_render_mybtn.Name = "button_render_mybtn";
+            this.button_render_mybtn.Size = new System.Drawing.Size(242, 52);
+            this.button_render_mybtn.TabIndex = 1;
+            this.button_render_mybtn.Text = "Render MyButton";
+            this.button_render_mybtn.UseVisualStyleBackColor = true;
+            this.button_render_mybtn.Click += new System.EventHandler(this.button_render_mybtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_render_mybtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.myFlowLayoutPanel);
             this.Name = "Form1";
@@ -66,6 +78,7 @@
 
         private System.Windows.Forms.FlowLayoutPanel myFlowLayoutPanel;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_render_mybtn;
     }
 }
 
