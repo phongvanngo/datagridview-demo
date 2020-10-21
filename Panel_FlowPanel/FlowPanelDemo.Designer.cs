@@ -32,6 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button_render_mybtn = new System.Windows.Forms.Button();
             this.dataGridView_invoice = new System.Windows.Forms.DataGridView();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_invoice)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,11 +78,19 @@
             this.dataGridView_invoice.TabIndex = 2;
             this.dataGridView_invoice.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_invoice_CellEndEdit);
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(374, 211);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 130);
+            this.panel1.TabIndex = 3;
+            // 
             // FlowPanelDemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView_invoice);
             this.Controls.Add(this.button_render_mybtn);
             this.Controls.Add(this.button1);
@@ -99,6 +108,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button_render_mybtn;
         private System.Windows.Forms.DataGridView dataGridView_invoice;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

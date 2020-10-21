@@ -14,15 +14,13 @@ namespace PassingDataUserControl
     {
         public Form1()
         {
-            InitializeComponent();
-            setContent1.MyContent = "24324";
-            receiveContent1.MyReceiveContent = setContent1.MyContent;
-            setContent1.ContentChange += SetContent1_ContentChange;
+            InitializeComponent();            
+            //setContent1.ContentChange += SetContent1_ContentChange;
         }
 
         private void SetContent1_ContentChange(string s)
         {
-            MessageBox.Show("Set Button Clicked");
+            receiveContent1.MyReceiveContent = s;
         }
     }
 }

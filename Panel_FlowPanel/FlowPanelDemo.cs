@@ -33,6 +33,9 @@ namespace Panel_FlowPanel
             invoice.Columns.Add("Total",typeof(int));
 
             dataGridView_invoice.DataSource = invoice;
+
+            Button btn = new Button();
+            panel1.Controls.Add(btn);
         }
 
         private void button1_Click(object sender, EventArgs e)
