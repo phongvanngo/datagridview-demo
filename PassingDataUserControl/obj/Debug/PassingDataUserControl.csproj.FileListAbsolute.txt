@@ -1,0 +1,12 @@
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\bin\Debug\PassingDataUserControl.exe.config
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\bin\Debug\PassingDataUserControl.exe
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\bin\Debug\PassingDataUserControl.pdb
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.Properties.Resources.resources
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.UserControl1.resources
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.csproj.GenerateResource.cache
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.csproj.CoreCompileInputs.cache
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.exe
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.pdb
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.Form1.resources
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.ReceiveContent.resources
+C:\Users\19520\Documents\CODING\C#\Winform Component\PassingDataUserControl\obj\Debug\PassingDataUserControl.SetContent.resources

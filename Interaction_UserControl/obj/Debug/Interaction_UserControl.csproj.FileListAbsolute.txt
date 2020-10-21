@@ -1,0 +1,13 @@
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\bin\Debug\Interaction_UserControl.exe.config
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\bin\Debug\Interaction_UserControl.exe
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\bin\Debug\Interaction_UserControl.pdb
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.Interaction_UserControl.resources
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.Properties.Resources.resources
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.ReceiveContent.resources
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.SetContent.resources
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.csproj.GenerateResource.cache
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.csproj.CoreCompileInputs.cache
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.exe
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.pdb
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.csprojAssemblyReference.cache
+C:\Users\19520\Documents\CODING\C#\Winform Component\Interaction_UserControl\obj\Debug\Interaction_UserControl.UserControl1.resources

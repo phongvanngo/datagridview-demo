@@ -2,9 +2,9 @@ C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\bin\Debug\P
 C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\bin\Debug\Panel_FlowPanel.exe
 C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\bin\Debug\Panel_FlowPanel.pdb
 C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\obj\Debug\Panel_FlowPanel.csprojAssemblyReference.cache
+C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\obj\Debug\Panel_FlowPanel.FlowPanelDemo.resources
 C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\obj\Debug\Panel_FlowPanel.Properties.Resources.resources
 C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\obj\Debug\Panel_FlowPanel.csproj.GenerateResource.cache
 C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\obj\Debug\Panel_FlowPanel.csproj.CoreCompileInputs.cache
 C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\obj\Debug\Panel_FlowPanel.exe
 C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\obj\Debug\Panel_FlowPanel.pdb
-C:\Users\19520\Documents\CODING\C#\Winform Component\Panel_FlowPanel\obj\Debug\Panel_FlowPanel.FlowPanelDemo.resources
